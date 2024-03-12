@@ -1,0 +1,13 @@
+class ZwierzeDomowe:
+    def __init__(self, imię, gatunek):
+        self.imię = imię
+        self.gatunek = gatunek
+
+
+pies = ZwierzeDomowe("reksiu", "Pies")
+kot = ZwierzeDomowe("Fifunia", "Kot")
+chomik = ZwierzeDomowe("diabeł", "chomik")
+
+print(f"Imię: {pies.imię}, Gatunek: {pies.gatunek}")
+print(f"Imię: {kot.imię}, Gatunek: {kot.gatunek}")
+print(f"Imię: {chomik.imię}, Gatunek: {chomik.gatunek}")
